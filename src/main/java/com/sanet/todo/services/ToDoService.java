@@ -26,4 +26,8 @@ public class ToDoService {
 		 toDoRepo.deleteById(id);
 	}
 
+	public void deleteToDoEntity(int id) {
+		toDoRepo.deleteById(id);
+	}
+
 }
